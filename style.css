@@ -1,0 +1,340 @@
+body{
+    cursor: auto
+}
+a{
+    text-decoration: none;
+}
+
+header{ /*the header background*/
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.header{/*the header content*/
+    display: flex;
+    justify-content: space-between;
+    margin: auto 14% 50px; /*center it*/
+    width: 72%;
+    padding-top: 10px;
+}
+/*navigation bar*/
+.header> ul{
+    width:250px ;
+    display: flex;
+    justify-content: space-between;  
+    list-style-type: none;
+    font-style: 20px;
+    color: grey; 
+}
+.different{ /*about us color*/
+    color: rgb(10, 161, 154);
+}
+.header>ul li:hover{
+    color: rgb(10, 161, 154)
+}
+
+/*dopdown list...*/
+.dropdown-content ul{
+    list-style-type:none;
+    
+
+}
+.dropdown-content ul li:hover{
+    background-color: rgb(225, 230, 230);
+    color:  rgb(10, 161, 154);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(255, 254, 254);
+    width:250px;
+    color:grey;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    cursor: pointer  
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+.intro{/*positionnement général*/
+    margin: auto;
+    width: 72.5%;
+    text-align: center;
+    
+}
+.paragraph{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.paragraph p{
+    width: 49%;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+.intro h1{
+    color: rgb(7, 179, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    margin:50px auto;
+}
+
+/*the for section*/
+.for-section{/*positionnement général*/
+    margin: 70px auto;
+    width: 72.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.for { 
+    width: 49%; /*dimensionner les deux box*/
+    justify-content: space-between;
+    
+    
+}
+.illustration{/*image +boutton*/
+    display: flex; 
+    justify-content: space-between;
+    margin-right:0;
+    align-items: flex-start;
+    padding:auto auto auto 16px ;
+}
+
+.for-1{
+    background-color: #66d6c7;
+    padding: 15px;
+    border-radius: 9px;
+    
+}
+
+.for-2{
+    background-color: rgb(62, 95, 240);
+    padding: 15px;
+    border-radius: 9px;
+}
+
+
+.for h6{ 
+    color: rgba(239, 239, 245, 0.747);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.for p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    margin-top:10px;
+    color: white;
+}
+.button{
+    background-color: white;
+    height:40px;
+    border-radius: 3px;
+    border-color: white;
+    width: 400px;
+    margin:0;
+    
+
+}
+
+
+.we-are-global{
+    margin: 0 auto;
+    width: 72.5%;
+   display: flex;  
+
+}
+
+.we-are-1{
+    flex:1;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(33, 203, 206);
+
+    
+}
+.we-are-2 a{
+    color: rgb(209, 202, 202);
+}
+.we-are-2 a:hover{
+    color: rgb(31, 49, 209);
+}
+.we-are-2{
+  
+    flex:3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    list-style: none; 
+   
+}
+/*Not done too */
+.blue-section{
+    background-color: rgb(208, 247, 244);
+    display: flex;
+}
+
+.blue-1{
+    padding: 60px 80px 50px 180px;
+}
+
+.blue-1 h2{
+    color:rgb(17, 182, 194);
+    font-size: 35px;
+    font-weight: 500;
+}
+.blue-1{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.blue-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:20px 0px auto auto;
+    margin:30px 0 auto auto;
+    
+}
+.blue-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 5px auto auto 0px;
+    height: 520px;
+
+}
+
+.blu{ 
+    background-color: white;
+    padding: 20px 5px ;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 210px;
+}
+.blu h4{
+    color: rgb(97, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    
+    margin:14px 0 0 0 ;
+}
+.blu p{
+    color:grey;
+    font-size:15px;
+}
+
+.million-section{
+    margin:auto;
+    width: 72.5%;
+    text-align: center;
+    margin:40px 32.5%;
+    width:35%;
+    padding-top: 20px;
+}
+.million-section h3{
+    color:rgb(32, 199, 199);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.million-section p{
+    color: grey;
+    line-height: 1.7em;
+}
+
+.cards-section{
+    margin: auto;
+    width: 72.5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    border-radius: 12px;
+    margin-top: 50px;
+   
+   
+}
+.card img {
+    padding-top: 0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.card p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:grey;
+   
+    
+}
+.card{
+   display: flex;
+   flex-wrap: wrap; 
+   border-color: grey;
+ 
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   margin-top: 20px;
+   
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+ .button-1{
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(13, 137, 168);
+    height:30px;
+    width:8;
+    padding: 10px 20px 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 1.8em 17px;
+    cursor: pointer;
+ }
+footer{
+    text-align: center;
+   padding-top: 60px;
+   margin-top: 40px;
+   color: rgb(162, 167, 162);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   
+  
+   
+}
